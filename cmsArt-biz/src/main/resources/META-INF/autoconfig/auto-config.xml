@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group>
+        <!--app-->
+        <property name="cmsArt.app.name" description="项目名字" defaultValue="内容管理系统"/>
+        <property name="cmsArt.app.author" description="项目负责人" defaultValue="康永敢"/>
+        <property name="cmsArt.app.name.en" description="项目名字" defaultValue="Content Manager System"/>
+        <property name="cmsArt.app.author.en" description="项目负责人" defaultValue="kangyonggan"/>
+        <property name="cmsArt.app.ba.no" description="备案号" defaultValue="皖ICP备16017743号-1"/>
+
+        <!-- dubbo -->
+        <property name="cmsArt.dubbo.name" description="dubbo名字" defaultValue="cmsArt"/>
+        <property name="cmsArt.dubbo.registry.address" description="dubbo注册地址"
+                  defaultValue="zookeeper://127.0.0.1:2181?backup=127.0.0.1:2182,127.0.0.1:2183"/>
+        <property name="cmsArt.dubbo.protocol.port" description="dubbo注册端口" defaultValue="-1"/>
+        <property name="cmsArt.dubbo.timeout" description="dubbo超时时间" defaultValue="10000"/>
+        <property name="cmsArt.dubbo.cmsArt.version" description="api提供接口的版本" defaultValue="1.0.0"/>
+
+        <!-- redis -->
+        <property name="cmsArt.redis.maxTotal" description="redis最大连接数" defaultValue="1000"/>
+        <property name="cmsArt.redis.minIdle" description="redis最小等待数" defaultValue="50"/>
+        <property name="cmsArt.redis.maxIdle" description="redis最大等待数" defaultValue="100"/>
+        <property name="cmsArt.redis.testOnBorrow" description="redis测试支持" defaultValue="true"/>
+        <property name="cmsArt.redis.host" description="redis主机ip" defaultValue="127.0.0.1"/>
+        <property name="cmsArt.redis.port" description="redis主机端口" defaultValue="6379"/>
+        <property name="cmsArt.redis.password" description="redis密码" defaultValue="123456"/>
+        <property name="cmsArt.redis.prefix" description="redis的key的前缀" defaultValue="cmsArt"/>
+
+        <!--jdbc-->
+        <property name="cmsArt.jdbc.driver" description="jdbc驱动" defaultValue="com.mysql.jdbc.Driver"/>
+        <property name="cmsArt.jdbc.url" description="jdbc地址" defaultValue="jdbc:mysql://127.0.0.1:3306/cmsArt"/>
+        <property name="cmsArt.jdbc.username" description="jdbc用户名" defaultValue="root"/>
+        <property name="cmsArt.jdbc.password" description="jdbc密码" defaultValue="123456"/>
+
+        <!--mail-->
+        <property name="cmsArt.mail.host" description="邮件服务器地址" defaultValue="smtp.qq.com"/>
+        <property name="cmsArt.mail.username" description="邮件服务器用户名" defaultValue="kangyonggan@qq.com"/>
+        <property name="cmsArt.mail.password" description="邮件服务器密码" defaultValue="123456"/>
+        <property name="cmsArt.mail.timeout" description="邮件发送超时时间" defaultValue="25000"/>
+        <property name="cmsArt.mail.receiver" description="错误日志邮件接收人" defaultValue="kangyonggan@gmail.com"/>
+        <property name="cmsArt.mail.bufferSize" description="错误日志邮件缓冲区大小(单位:k)" defaultValue="50"/>
+
+        <!-- log4j2 -->
+        <property name="cmsArt.log4j2.home" description="log4j2日志的文件主目录" defaultValue="/Users/kyg/logs/cmsArt"/>
+
+        <property name="cmsArt.slow.method.time" description="慢方法时间(秒)" defaultValue="5"/>
+        <property name="cmsArt.slow.interface.time" description="慢接口时间(秒)" defaultValue="5"/>
+        <property name="cmsArt.cache.open" description="是否开启缓存,Y:开启,N:不开启" defaultValue="Y"/>
+        <property name="cmsArt.file.root.path" description="文件根目录" defaultValue="/Users/kyg/code2/cmsArt/cmsArt-web/src/main/webapp/WEB-INF/"/>
+    </group>
+    <script>
+        <generate template="app.properties" charset="UTF-8"/>
+        <generate template="messages_en_US.properties" charset="UTF-8"/>
+        <generate template="messages_zh_CN.properties" charset="UTF-8"/>
+        <generate template="applicationContext-datasource.xml" charset="UTF-8"/>
+        <generate template="applicationContext-redis.xml" charset="UTF-8"/>
+        <generate template="applicationContext-provider.xml" charset="UTF-8"/>
+        <generate template="applicationContext-mail.xml" charset="UTF-8"/>
+        <generate template="log4j2.xml"/>
+    </script>
+</config>

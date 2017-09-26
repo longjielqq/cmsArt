@@ -1,0 +1,97 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cmsArt-web:war exploded">
+    <output-path>$PROJECT_DIR$/cmsArt-web/target/cmsArt-web-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cmsArt-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="cmsArt-biz-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="cmsArt-biz" />
+          </element>
+          <element id="archive" name="cmsArt-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="cmsArt-service" />
+          </element>
+          <element id="archive" name="cmsArt-model-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="cmsArt-model" />
+          </element>
+          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.5" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.5" />
+          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="archive" name="cmsArt-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="cmsArt-dao" />
+          </element>
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.3.1" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.4" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.1.2" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.4" />
+          <element id="library" level="project" name="Maven: tk.mybatis:mapper:3.3.8" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.18" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
+          <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.3.3" />
+          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.3.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.4.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.0" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.2.4" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.2" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-ehcache:1.2.4" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.5.0" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-web:1.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring:1.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-quartz:1.2.4" />
+          <element id="library" level="project" name="Maven: org.opensymphony.quartz:quartz:1.6.1" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.7" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.22" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.9" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
+          <element id="library" level="project" name="Maven: commons-net:commons-net:3.5" />
+          <element id="library" level="project" name="Maven: org.pegdown:pegdown:1.6.0" />
+          <element id="library" level="project" name="Maven: org.parboiled:parboiled-java:1.1.7" />
+          <element id="library" level="project" name="Maven: org.parboiled:parboiled-core:1.1.7" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.3" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-tree:5.0.3" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-analysis:5.0.3" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-util:5.0.3" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:5.2.3.Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.2.1.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.1.0" />
+          <element id="library" level="project" name="Maven: net.coobird:thumbnailator:0.4.8" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.8" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/cmsArt-web/target/cmsArt-web-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cmsArt-web/web/Web" />
+    </root>
+  </artifact>
+</component>

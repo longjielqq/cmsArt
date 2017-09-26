@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cmsArt.iml" filepath="$PROJECT_DIR$/cmsArt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmsArt-biz/cmsArt-biz.iml" filepath="$PROJECT_DIR$/cmsArt-biz/cmsArt-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmsArt-dao/cmsArt-dao.iml" filepath="$PROJECT_DIR$/cmsArt-dao/cmsArt-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmsArt-model/cmsArt-model.iml" filepath="$PROJECT_DIR$/cmsArt-model/cmsArt-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmsArt-service/cmsArt-service.iml" filepath="$PROJECT_DIR$/cmsArt-service/cmsArt-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmsArt-web/cmsArt-web.iml" filepath="$PROJECT_DIR$/cmsArt-web/cmsArt-web.iml" />
+    </modules>
+  </component>
+</project>
